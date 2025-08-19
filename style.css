@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #222;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: #ff0055;
+}
+
+#game {
+    margin: 30px auto;
+    max-width: 500px;
+    background: #333;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 0 20px #111;
+}
+
+#stats {
+    font-size: 1.2em;
+    margin-bottom: 24px;
+}
+
+#event {
+    margin-bottom: 18px;
+    font-size: 1.1em;
+}
+
+#choices button {
+    margin: 7px;
+    padding: 8px 16px;
+    font-size: 1em;
+    background: #ff0055;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#choices button:hover {
+    background: #ee0044;
+}
+
+#nextDay {
+    margin-top: 18px;
+    background: #44cc44;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#nextDay:hover {
+    background: #369c36;
+}
